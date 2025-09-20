@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "hono": "^4.9.7",
+    "mongodb": "^6.19.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.21"
+  },
+  "name": "tat_backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "start": "bun run --hot index.ts",
+    "test": "bun test"
+  }
+}
